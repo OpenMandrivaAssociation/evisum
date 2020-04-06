@@ -7,7 +7,7 @@ License:	GPLv2+
 Group:		Graphical desktop/Enlightenment
 URL:		https://www.enlightenment.org/
 Source:		https://download.enlightenment.org/rel/apps/%{name}/%{name}-%{version}.tar.xz
-# Non-devel packages are needed to compile themes
+
 BuildRequires:	e
 BuildRequires:  meson
 BuildRequires:	pkgconfig(ecore) => %{efl_version}
@@ -53,5 +53,3 @@ Enlightenment System Monitor
 
 %install
 %meson_install
-
-%find_lang %{name}
