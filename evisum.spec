@@ -38,7 +38,7 @@ Requires:	ethumb => %{efl_version}
 Enlightenment System Monitor
 
 %files
-%doc AUTHORS COPYING
+%doc AUTHORS
 %{_bindir}/%{name}
 
 #----------------------------------------------------------------------------
