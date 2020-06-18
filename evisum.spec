@@ -1,4 +1,4 @@
-%define	efl_version 1.23.3
+%define	efl_version 1.24.3
 Summary:	Enlightenment System Monitor
 Name:		evisum
 Version:	0.4.1
