@@ -1,7 +1,7 @@
-%define	efl_version 1.23.3
+%define	efl_version 1.24.3
 Summary:	Enlightenment System Monitor
 Name:		evisum
-Version:	0.3.2
+Version:	0.4.1
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Enlightenment
@@ -41,9 +41,9 @@ Enlightenment System Monitor
 %doc AUTHORS
 %{_bindir}/%{name}
 %{_datadir}/applications/evisum.desktop
-%{_datadir}/evisum/images/go-down.png
-%{_datadir}/evisum/images/go-up.png
+%{_datadir}/evisum/images/*.png
 %{_iconsdir}/hicolor/*x*/apps/evisum.png
+%{_datadir}/locale/*/LC_MESSAGES/evisum.mo
 
 #----------------------------------------------------------------------------
 
