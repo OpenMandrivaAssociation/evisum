@@ -41,9 +41,9 @@ Enlightenment System Monitor
 %doc AUTHORS
 %{_bindir}/%{name}
 %{_datadir}/applications/evisum.desktop
-%{_datadir}/evisum/images/go-down.png
-%{_datadir}/evisum/images/go-up.png
+%{_datadir}/evisum/images/*.png
 %{_iconsdir}/hicolor/*x*/apps/evisum.png
+%{_datadir}/locale/*/LC_MESSAGES/evisum.mo
 
 #----------------------------------------------------------------------------
 
