@@ -43,6 +43,7 @@ Enlightenment System Monitor
 %{_datadir}/applications/evisum.desktop
 %{_datadir}/evisum/images/*.png
 %{_iconsdir}/hicolor/*x*/apps/evisum.png
+%{_datadir}/evisum/images/sky_*
 %{_datadir}/locale/*/LC_MESSAGES/evisum.mo
 
 #----------------------------------------------------------------------------
