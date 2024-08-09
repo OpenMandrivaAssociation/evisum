@@ -29,7 +29,6 @@ Enlightenment System Monitor
 %{_datadir}/evisum/themes/evisum.edj
 %{_iconsdir}/hicolor/*x*/apps/evisum_cpu.png
 %{_iconsdir}/hicolor/*x*/apps/evisum_mem.png
-%{_datadir}/locale/*/LC_MESSAGES/evisum.mo
 
 #----------------------------------------------------------------------------
 
