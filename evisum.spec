@@ -22,8 +22,8 @@ Enlightenment System Monitor
 %doc AUTHORS
 %{_bindir}/%{name}
 %{_datadir}/applications/evisum.desktop
-%{_datadir}/applications/evisum_cpu.desktop
-%{_datadir}/applications/evisum_mem.desktop
+#{_datadir}/applications/evisum_cpu.desktop
+#{_datadir}/applications/evisum_mem.desktop
 %{_datadir}/evisum/images/*.png
 %{_iconsdir}/hicolor/*x*/apps/evisum.png
 %{_datadir}/evisum/themes/evisum.edj
@@ -33,7 +33,7 @@ Enlightenment System Monitor
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q
+%autosetup -p1
 
 %meson
 
