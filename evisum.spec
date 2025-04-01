@@ -1,7 +1,7 @@
 %define	efl_version 1.26.1
 Summary:	Enlightenment System Monitor
 Name:		evisum
-Version:	0.6.1
+Version:	0.6.4
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Enlightenment
