@@ -3,7 +3,7 @@ Summary:	Enlightenment System Monitor
 Name:		evisum
 Version:	0.6.4
 Release:	1
-License:	GPLv2+
+License:	GPLv22
 Group:		Graphical desktop/Enlightenment
 URL:		https://www.enlightenment.org/
 Source:		https://download.enlightenment.org/rel/apps/%{name}/%{name}-%{version}.tar.xz
