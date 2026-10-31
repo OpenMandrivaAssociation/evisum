@@ -1,7 +1,7 @@
-%define	efl_version 1.26.1
+%define	efl_version 1.29.0
 Summary:	Enlightenment System Monitor
 Name:		evisum
-Version:	0.6.4
+Version:	1.0.0
 Release:	1
 License:	GPLv22
 Group:		Graphical desktop/Enlightenment
@@ -13,7 +13,7 @@ BuildRequires:  meson
 BuildRequires:	pkgconfig(efl) => %{efl_version}
 
 Requires:	efl => %{efl_version}
-Requires: e => 0.25.1
+Requires: e => 0.28.0
 
 %description
 Enlightenment System Monitor
@@ -22,8 +22,6 @@ Enlightenment System Monitor
 %doc AUTHORS
 %{_bindir}/%{name}
 %{_datadir}/applications/evisum.desktop
-#{_datadir}/applications/evisum_cpu.desktop
-#{_datadir}/applications/evisum_mem.desktop
 %{_datadir}/evisum/images/*.png
 %{_iconsdir}/hicolor/*x*/apps/evisum.png
 %{_datadir}/evisum/themes/evisum.edj
